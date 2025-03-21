@@ -1,0 +1,92 @@
+ion-content {
+    --background: #f7e9f5; /* Rosa bebê suave */
+    --background-size: cover;
+    height: 100%;
+  }
+  
+  .title {
+    color: #f7c6d5; /* Rosa suave */
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* leve sobreposição branca */
+    z-index: -1;
+  }
+  
+  .signup-card {
+    background: rgba(255, 255, 255, 0.9); /* fundo suave e leve */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* sombra suave */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .signup-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  ion-card-header {
+    background-color: transparent;
+    border-bottom: 2px solid #f7c6d5; /* rosa suave */
+    margin-bottom: 20px;
+  }
+  
+  ion-card-title {
+    color: #f7c6d5; /* rosa suave */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .input-item {
+    margin-bottom: 20px;
+  }
+  
+  .input-item ion-input {
+    --background: #fff; /* branco para inputs */
+    --border-radius: 12px; /* bordas mais arredondadas */
+    --padding-start: 10px;
+    --padding-end: 10px;
+    color: #333; /* cor escura para o texto */
+    --border: 1px solid #f7c6d5; /* borda rosa suave */
+  }
+  
+  input-item ion-label {
+    color: #333; /* cor escura para rótulos */
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  ion-button {
+    --background: #f7c6d5; /* rosa suave */
+    --color: white;
+    --border-radius: 12px;
+    --height: 50px;
+    font-weight: bold;
+  }
+  
+  ion-button:hover {
+    background-color: #e1a5b1; /* tom de rosa mais forte no hover */
+  }
+  
+  .register-button {
+    --background: transparent;
+    --color: #f7c6d5;
+    --border: 2px solid #f7c6d5;
+    --border-radius: 12px;
+  }
+  
+  .register-button:hover {
+    background-color: #f7c6d5;
+    --color: white;
+  }
+  
